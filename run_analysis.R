@@ -63,6 +63,5 @@ write.table(
   format(aggr.data, scientific=T), 
   "tidy_data_set.txt",
   row.names = FALSE, 
-  col.names=FALSE, 
   quote = 2
   )
